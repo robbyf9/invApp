@@ -104,7 +104,7 @@
                                 <label for="unit_e" class="form-label">Unit</label>
                                 <select class="form-select" id="unit_e" name="unit_e" aria-label="Default select example" v-model="formEdit.unit">
                                     <option selected disabled>Pilih Unit</option>
-                                    <option value="kg">Kg</option>
+                                    <option value="Kg">Kg</option>
                                     <option value="Pcs">Pcs</option>
                                 </select>
                             </div>
