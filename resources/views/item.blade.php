@@ -21,7 +21,7 @@
                 @forelse ($items as $item)
                     <div class="col-md-3">
                         <div class="card m-2" style="width: 18rem;">
-                            <img src="{{ asset('storage/image/item/' . $item['barang']) }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('storage/image/item/' . $item['barang']) }}" class="card-img-top" alt="..." height="250px">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $item['nama_item'] }}</h5>
                             </div>
